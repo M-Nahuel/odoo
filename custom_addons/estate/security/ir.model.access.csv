@@ -9,3 +9,6 @@ estate.access_estate_type,access.estate.type.user,model_estate_type,estate.group
 
 estate.access_estate_tag,access.estate.tag.admin,model_estate_tag,estate.group_admin,1,1,1,1
 estate.access_estate_tag,access.estate.tag.user,model_estate_tag,estate.group_user,1,1,1,1
+
+estate.access_estate_offer,access.estate.tag.admin,model_estate_offer,estate.group_admin,1,1,1,1
+estate.access_estate_offer,access.estate.tag.user,model_estate_offer,estate.group_user,1,1,1,1

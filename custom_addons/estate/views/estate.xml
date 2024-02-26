@@ -32,7 +32,10 @@
             <field name="arch" type="xml">
 
                     <form string="Estate Property">
-
+                         <header>
+                             <button name="action_sold" type="object" string="Vender"/>
+                             <button name="action_cancel" type="object" string="Cancelar"/>
+                         </header>
                         <sheet>
 
                             <h1>
@@ -49,8 +52,8 @@
 
                                 <group>
                                     <field name="expected_price"/>
+                                    <field name="best_price"/>
                                     <field name="selling_price"/>
-                                    <field name="active"/>
                                     <field name="tag_ids" widget="many2many_tags"/>
                                 </group>
 
@@ -61,19 +64,27 @@
                                         <group>
                                             <field name="description" string="Descripcion"/>
                                             <field name="bedrooms" string="Numero de Habitaciones"/>
-                                            <field name="living_area" string="Sala de Estar"/>
+                                            <field name="living_area" string="Area Interior"/>
                                             <field name="facades" string="Fachada"/>
                                             <field name="garage" string="Garage"/>
-                                            <field name="garden" string="Jardin"/>
+                                            <field name="garden" string="Area del Jardin"/>
                                             <field name="garden_area" string="Zona de Jardin"/>
                                             <field name="garden_orientation" string="Orientacion del Jardin"/>
+                                            <field name="total_area" string="Area Total"/>
+                                        </group>
+                                    </page>
+
+                                    <page string="Ofertas">
+                                        <group>
+                                            <field name="offer_ids" attrs="{'readonly': [('state', 'in', ('oferta_aceptada', 'vendido', 'cancelado'))]}"/>
+
                                         </group>
                                     </page>
 
                                     <page string="Mas Informacion">
                                         <group>
                                             <field name="user_id" string="Vendedor"/>
-                                            <field name="partner_id" string="Comprador"/>
+                                            <field name="buyer_id" string="Comprador"/>
                                         </group>
                                     </page>
 
