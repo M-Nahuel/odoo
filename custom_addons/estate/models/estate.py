@@ -6,6 +6,10 @@ from odoo.exceptions import UserError, ValidationError
 class RealEstate(models.Model):
     _name = "estate"
     _description = "Real Estate"
+    _sql_constraints = [
+        ('check_expected_price', 'CHECK(expected_price > 0)', 'El precio esperado debe ser un numero mayor a 0.'),
+        ('check_selling_price', 'CHECK(selling_price >= 0)', 'El precio de venta debe ser un numero no negativo.'),
+    ]
 
     name = fields.Char(default="Desconocido",string='Titulo', required=True)
     description = fields.Text(string='Descripcion')
@@ -30,10 +34,6 @@ class RealEstate(models.Model):
     total_area = fields.Char(compute='_compute_total', string='Area Total')
     best_price = fields.Char(compute='_compute_max_offer', string='Mejor Oferta')
 
-    _sql_constraints = [
-        ('expected_price', 'CHECK(expected_price > 0)', 'El precio esperado debe ser un numero mayor a 0.'),
-        ('expected_price', 'CHECK(selling_price >= 0)', 'El precio de venta debe ser un numero no negativo.')
-    ]
 
     @api.depends('living_area', 'garden_area')
     def _compute_total(self):

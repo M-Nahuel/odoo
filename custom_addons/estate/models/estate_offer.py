@@ -5,6 +5,9 @@ from odoo.exceptions import UserError, ValidationError
 class Offer(models.Model):
     _name = 'estate_offer'
     _description = 'Estate Offers'
+    _sql_constraints = [
+        ('check_price', 'CHECK(price > 0)', 'El precio de oferta debe ser un numero mayor a 0'),
+    ]
 
     price = fields.Float(string='Precio')
     status = fields.Selection([('accepted','Aceptada'),('refused','Rechazada')], copy=False)
@@ -12,10 +15,6 @@ class Offer(models.Model):
     property_id = fields.Many2one('estate', required=True)
     validity = fields.Integer(default=7, string='Validez')
     date_deadline = fields.Date(compute='_compute_deadline', inverse='_inverse_deadline', string='Expira')
-
-    _sql_constraints = [
-        ('price', 'CHECK(price > 0)', 'El precio de oferta debe ser un numero mayor a 0')
-    ]
 
     @api.depends('create_date', 'validity')
     def _compute_deadline(self):
