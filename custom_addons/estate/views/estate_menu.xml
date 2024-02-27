@@ -2,7 +2,7 @@
 <odoo>
     <data>
         <!-- Main menu -->
-        <menuitem id="menu_estate" name="Real Estate" web_icon="estate\static\description\icon.png" sequence="1" groups="group_user,group_admin"/>
+        <menuitem id="menu_estate" name="Real Estate" web_icon="estate,static\description\icon.png" sequence="1" groups="group_user,group_admin"/>
 
         <!-- Submenus -->
         <menuitem parent="menu_estate" sequence="10" id="menu_real_estate" name="Anuncios"  groups="group_user,group_admin"/>

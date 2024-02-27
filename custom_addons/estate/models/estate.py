@@ -1,6 +1,7 @@
 from odoo import api, models, fields, _
 from datetime import datetime, timedelta
 from odoo.exceptions import UserError, ValidationError
+from odoo.tools import float_compare, float_is_zero
 
 
 class RealEstate(models.Model):
@@ -51,6 +52,17 @@ class RealEstate(models.Model):
         if self.garden == True:
             self.garden_area = 10
             self.garden_orientation = 'norte'
+
+    @api.constrains('expected_price', 'selling_price')
+    def _check_selling_price(self):
+        for rec in self:
+            if (
+                    not float_is_zero(rec.selling_price, precision_rounding=0.01)
+                    and float_compare(rec.selling_price, rec.expected_price * 90.0 / 100.0,
+                                      precision_rounding=0.01) < 0
+            ):
+                raise ValidationError('El precio de oferta no puede ser menor al 90% del precio esperado'
+                )
 
     def action_sold(self):
         for propiedad in self:
