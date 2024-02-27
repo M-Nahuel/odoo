@@ -5,6 +5,7 @@ from odoo.exceptions import UserError, ValidationError
 class Offer(models.Model):
     _name = 'estate_offer'
     _description = 'Estate Offers'
+    _order = 'price desc'
     _sql_constraints = [
         ('check_price', 'CHECK(price > 0)', 'El precio de oferta debe ser un numero mayor a 0'),
     ]

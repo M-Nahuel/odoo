@@ -7,6 +7,7 @@ from odoo.tools import float_compare, float_is_zero
 class RealEstate(models.Model):
     _name = "estate"
     _description = "Real Estate"
+    _order = 'id desc'
     _sql_constraints = [
         ('check_expected_price', 'CHECK(expected_price > 0)', 'El precio esperado debe ser un numero mayor a 0.'),
         ('check_selling_price', 'CHECK(selling_price >= 0)', 'El precio de venta debe ser un numero no negativo.'),

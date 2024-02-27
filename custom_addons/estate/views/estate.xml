@@ -35,6 +35,7 @@
                          <header>
                              <button name="action_sold" type="object" string="Vender"/>
                              <button name="action_cancel" type="object" string="Cancelar"/>
+                             <field name="state" widget="statusbar" statusbar_visible="nuevo,oferta_recibida,oferta_aceptada,vendido"/>
                          </header>
                         <sheet>
 
@@ -46,7 +47,6 @@
                                 <group>
                                     <field name="postcode"/>
                                     <field name="date_availability"/>
-                                    <field name="state"/>
                                     <field name="type_id"/>
                                 </group>
 
