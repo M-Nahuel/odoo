@@ -34,7 +34,7 @@ class RealEstate(models.Model):
     offer_ids = fields.One2many('estate_offer', 'property_id', string='Ofertas')
     total_area = fields.Char(compute='_compute_total', string='Area Total')
     best_price = fields.Char(compute='_compute_max_offer', string='Mejor Oferta')
-
+    property_type_ids = fields.Many2one('estate_type', string='Tipo de Propiedad')
 
     @api.depends('living_area', 'garden_area')
     def _compute_total(self):
