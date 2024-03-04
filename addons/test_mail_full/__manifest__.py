@@ -22,7 +22,7 @@ real applications. """,
         'sms',
     ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'demo': [
     ],

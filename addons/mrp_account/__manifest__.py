@@ -20,7 +20,7 @@ If the automated inventory valuation is active, the necessary accounting entries
     'website': 'https://www.odoo.com/app/manufacturing',
     'depends': ['mrp', 'stock_account'],
     "data": [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         "views/product_views.xml",
         "views/mrp_bom_views.xml",
         "views/mrp_production_views.xml",

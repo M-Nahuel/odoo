@@ -14,7 +14,7 @@
     ],
     'data': [
         'security/note_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/mail_activity_data.xml',
         'data/note_data.xml',
         'data/res_users_data.xml',

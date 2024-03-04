@@ -29,7 +29,7 @@ This module also uses analytic accounting and is compatible with the invoice on 
     'depends': ['hr_contract', 'account', 'web_tour'],
     'data': [
         'security/hr_expense_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/digest_data.xml',
         'data/mail_data.xml',
         'data/mail_templates.xml',

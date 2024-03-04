@@ -15,7 +15,7 @@
         'data/mail_template_data.xml',
         'views/gamification_badge_views.xml',
         'views/website_profile.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'auto_install': False,
     'assets': {

@@ -16,7 +16,7 @@ barcode.
     'data': [
         'data/ir_cron_data.xml',
         'security/product_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/res_config_settings_views.xml',
         'wizard/product_fetch_image_wizard_views.xml',
     ],

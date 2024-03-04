@@ -16,7 +16,7 @@ from purchase order.
     'data': [
         'views/purchase_order_views.xml',
         'views/mrp_production_views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'depends': ['mrp', 'purchase_stock'],
     'installable': True,

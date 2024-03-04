@@ -12,7 +12,7 @@ Coupon & promotion programs can be edited in the Catalog menu of the Website app
     'version': '1.0',
     'depends': ['website_sale', 'website_links', 'sale_coupon'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/coupon_share_views.xml',
         'views/website_sale_templates.xml',
         'views/res_config_settings_views.xml',

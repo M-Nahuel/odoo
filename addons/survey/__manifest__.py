@@ -28,7 +28,7 @@ sent mails with personal token for the invitation of the survey.
         'data/mail_template_data.xml',
         'data/ir_actions_data.xml',
         'security/survey_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/survey_menus.xml',
         'views/survey_survey_views.xml',
         'views/survey_user_views.xml',

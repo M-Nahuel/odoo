@@ -13,7 +13,7 @@
     'description': "",
     'data': [
         'security/mrp_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/digest_data.xml',
         'data/mail_templates.xml',
         'data/mrp_data.xml',

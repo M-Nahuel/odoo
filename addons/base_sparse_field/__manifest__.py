@@ -12,7 +12,7 @@
     'version': '1.0',
     'depends': ['base'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/views.xml',
     ],
     'license': 'LGPL-3',

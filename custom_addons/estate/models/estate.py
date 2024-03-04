@@ -28,14 +28,14 @@ class RealEstate(models.Model):
     garden_area = fields.Integer(string='Area del Jardin')
     garden_orientation = fields.Selection([('norte', 'Norte'), ('sur', 'Sur'), ('este', 'Este'), ('oeste', 'Oeste')], string='Orientacion del Jardin')
     state = fields.Selection([('nuevo', 'Nuevo'), ('oferta_recibida', 'Oferta recibida'), ('oferta_aceptada', 'Oferta aceptada'), ('vendido', 'Vendido'), ('cancelado', 'Cancelado')], string='Estado', default='nuevo', required=True)
-    type_id = fields.Many2one('estate_type', string='Tipo')
+    # type_id = fields.Many2one('estate_type', string='Tipo de propiedad')
     user_id = fields.Many2one('res.users', string='Vendedor', default=lambda self: self.env.user) #Verificar parametros a agregar
     buyer_id = fields.Many2one('res.partner', string='Comprador', copy=False) #Verificar parametros a agregar
     tag_ids = fields.Many2many('estate_tag', string='Tags')
     offer_ids = fields.One2many('estate_offer', 'property_id', string='Ofertas')
     total_area = fields.Char(compute='_compute_total', string='Area Total')
     best_price = fields.Char(compute='_compute_max_offer', string='Mejor Oferta')
-    property_type_ids = fields.Many2one('estate_type', string='Tipo de Propiedad')
+    property_type_id = fields.Many2one('estate_type', string='Tipo de Propiedad')
 
     @api.depends('living_area', 'garden_area')
     def _compute_total(self):
@@ -78,3 +78,10 @@ class RealEstate(models.Model):
                 propiedad.state = 'cancelado'
             else:
                 raise UserError(_('No puede cancelar esta propiedad porque ya ha sido vendida'))
+
+    @api.ondelete(at_uninstall=False)
+    def _check_delete(self):
+        for prop in self:
+            if prop.state not in ['nuevo', 'cancelado']:
+                raise UserError("No se puede eliminar una propiedad con estado diferente a 'Nuevo' o 'Cancelado'")
+

@@ -11,7 +11,7 @@
     'description': "",
     'depends': ['website', 'sale', 'website_payment', 'website_mail', 'portal_rating', 'digest'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/website_sale.xml',
         'data/data.xml',
         'data/mail_template_data.xml',

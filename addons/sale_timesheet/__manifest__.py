@@ -16,7 +16,7 @@ have real delivered quantities in sales orders.
     'depends': ['sale_project', 'hr_timesheet'],
     'data': [
         'data/sale_service_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/sale_timesheet_security.xml',
         'views/account_invoice_views.xml',
         'views/sale_order_views.xml',

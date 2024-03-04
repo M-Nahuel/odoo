@@ -9,7 +9,7 @@
     'depends': ['account'],
     'data': [
         'wizard/coupon_generate_views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/coupon_security.xml',
         'views/coupon_views.xml',
         'views/coupon_program_views.xml',

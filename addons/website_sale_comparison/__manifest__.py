@@ -15,7 +15,7 @@ Finally, the module comes with an option to display an attribute summary table i
     'version': '1.0',
     'depends': ['website_sale'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/website_sale_comparison_template.xml',
         'views/website_sale_comparison_view.xml',
     ],

@@ -24,7 +24,7 @@ following:
     'depends': ['web', 'barcodes', 'point_of_sale'],
     'data': [
         'data/pos_mercury_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/pos_mercury_views.xml',
         'views/pos_mercury_transaction_templates.xml',
         'views/pos_config_setting_views.xml',

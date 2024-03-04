@@ -12,7 +12,7 @@
     'depends': ['account'],
     'data': [
         'security/purchase_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/digest_data.xml',
         'views/account_move_views.xml',
         'data/purchase_data.xml',

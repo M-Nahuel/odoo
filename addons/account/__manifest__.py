@@ -18,7 +18,7 @@ You could use this simplified accounting in case you work with an (external) acc
     'depends' : ['base_setup', 'product', 'analytic', 'portal', 'digest'],
     'data': [
         'security/account_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/data_account_type.xml',
         'data/account_data.xml',
         'data/digest_data.xml',

@@ -9,7 +9,7 @@
     'depends': ['event', 'sms'],
     'data': [
         'data/sms_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/sms_security.xml',
     ],
     'demo': [

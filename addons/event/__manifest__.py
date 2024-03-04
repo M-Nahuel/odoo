@@ -20,7 +20,7 @@ Key Features
     'depends': ['base_setup', 'mail', 'portal', 'utm'],
     'data': [
         'security/event_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/event_menu_views.xml',
         'views/event_ticket_views.xml',
         'views/event_views.xml',

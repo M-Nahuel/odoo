@@ -19,7 +19,7 @@
         'data/l10n_eg_edi.activity.type.csv',
         'data/l10n_eg_edi.uom.code.csv',
         'data/uom.uom.csv',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/eta_thumb_drive_security.xml',
         'views/uom_uom_view.xml',
         'views/account_move_view.xml',

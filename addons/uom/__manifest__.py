@@ -13,7 +13,7 @@ This is the base module for managing Units of measure.
     'data': [
         'data/uom_data.xml',
         'security/uom_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/uom_uom_views.xml',
     ],
     'installable': True,

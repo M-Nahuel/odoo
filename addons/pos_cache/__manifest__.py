@@ -15,7 +15,7 @@ time it takes to load a POS session with a lot of products.
     'depends': ['point_of_sale'],
     'data': [
         'data/pos_cache_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/pos_cache_views.xml',
         ],
     'assets': {

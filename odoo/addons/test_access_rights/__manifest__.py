@@ -4,7 +4,7 @@
     'version': '0.0.1',
     'category': 'Hidden/Tests',
     'data': [
-        'ir.model.access.csv',
+        'ir.model.access1.csv',
         'security.xml',
         'data.xml',
     ],

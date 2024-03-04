@@ -6,7 +6,7 @@
     'category': 'Hidden/Tests',
     'description': """A module to generate exceptions.""",
     'depends': ['base'],
-    'data': ['view.xml', 'ir.model.access.csv'],
+    'data': ['view.xml', 'ir.model.access1.csv'],
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',

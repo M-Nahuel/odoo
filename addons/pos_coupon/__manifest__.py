@@ -12,7 +12,7 @@
     "data": [
         "data/mail_template_data.xml",
         'data/default_barcode_patterns.xml',
-        "security/ir.model.access.csv",
+        "security/ir.model.access1.csv",
         "views/coupon_views.xml",
         "views/coupon_program_views.xml",
         "views/pos_config_views.xml",

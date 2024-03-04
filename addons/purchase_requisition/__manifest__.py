@@ -15,7 +15,7 @@ are agreements you have with vendors to benefit from a predetermined pricing.
     'demo': ['data/purchase_requisition_demo.xml'],
     'data': [
         'security/purchase_requisition_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/purchase_requisition_data.xml',
         'views/product_views.xml',
         'views/purchase_views.xml',

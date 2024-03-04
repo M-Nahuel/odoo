@@ -10,7 +10,7 @@ Partners Geolocation
     """,
     'depends': ['base_setup'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/res_partner_views.xml',
         'views/res_config_settings_views.xml',
         'data/data.xml',

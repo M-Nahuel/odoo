@@ -18,7 +18,7 @@ modules.
     """,
     'depends': ['sale_management', 'crm'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/partner_views.xml',
         'views/sale_order_views.xml',
         'views/crm_lead_views.xml',

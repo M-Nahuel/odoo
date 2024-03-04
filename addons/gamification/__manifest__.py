@@ -27,7 +27,7 @@ Both goals and badges are flexibles and can be adapted to a large range of modul
         'views/goal.xml',
         'data/cron.xml',
         'security/gamification_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/mail_template_data.xml',
         'data/goal_base.xml',
         'data/badge.xml',

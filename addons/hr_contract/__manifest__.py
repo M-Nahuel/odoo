@@ -21,7 +21,7 @@ You can assign several contracts per employee.
     'depends': ['hr'],
     'data': [
         'security/security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/hr_contract_data.xml',
         'report/hr_contract_history_report_views.xml',
         'views/hr_contract_views.xml',

@@ -27,7 +27,7 @@ this event.
         'data/event_sale_data.xml',
         'data/mail_data.xml',
         'report/event_event_templates.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/event_security.xml',
         'wizard/event_edit_registration.xml',
         'wizard/event_configurator_views.xml',

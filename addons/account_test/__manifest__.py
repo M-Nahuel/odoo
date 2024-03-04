@@ -19,7 +19,7 @@ and print the report from Print button in header area.
 """,
     'depends': ['account'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/accounting_assert_test_views.xml',
         'report/accounting_assert_test_reports.xml',
         'data/accounting_assert_test_data.xml',

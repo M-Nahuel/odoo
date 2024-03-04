@@ -30,7 +30,7 @@ Main Features
     ],
     'data': [
         'security/fleet_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/fleet_vehicle_model_views.xml',
         'views/fleet_vehicle_views.xml',
         'views/fleet_vehicle_cost_views.xml',

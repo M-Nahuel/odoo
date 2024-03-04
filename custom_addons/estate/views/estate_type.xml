@@ -7,6 +7,11 @@
             <field name="arch" type="xml">
                 <form string="Tipos de Propiedades">
                     <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="%(estate.estate_offer_action)d" type="action" class="oe_stat_button" icon="fa-money">
+                                <field name="offer_count" widget="statinfo" string="Ofertas"/>
+                            </button>
+                        </div>
                         <group>
                             <field name="name"/>
                         </group>
@@ -14,6 +19,7 @@
                         <page string="Propiedades">
                             <field name="property_ids" readonly="1">
                                 <tree>
+<!--                                    <field name="sequence" widget="handle"/>-->
                                     <field name="name"/>
                                     <field name="expected_price"/>
                                     <field name="state"/>

@@ -10,7 +10,7 @@
     'depends': ['crm', 'sms'],
     'data': [
         'views/crm_lead_views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/sms_security.xml',
     ],
     'installable': True,

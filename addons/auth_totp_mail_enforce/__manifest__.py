@@ -12,7 +12,7 @@ and encourage users to configure their 2FA using an authenticator app.
     'category': 'Extra Tools',
     'data': [
         'data/mail_template_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/res_config_settings_views.xml',
         'views/templates.xml',
     ],

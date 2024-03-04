@@ -26,13 +26,21 @@
                     <field name="price"/>
                     <field name="partner_id"/>
                     <field name="status"/>
+                    <field name="property_type_id"/>
                     <field name="validity"/>
                     <field name="date_deadline"/>
                     <button name="action_accept" type="object" icon="fa-check" attrs="{'invisible': [('status', '!=', False)]}"/>
                     <button name="action_decline" type="object" icon="fa-times" attrs="{'invisible': [('status', '!=', False)]}"/>
+<!--                    <field name="property_id.state" invisible="1"/>-->
                 </tree>
             </field>
         </record>
 
+        <record id="estate_offer_action" model="ir.actions.act_window">
+            <field name="name">Property Offers</field>
+            <field name="res_model">estate_offer</field>
+            <field name="domain">[('property_type_id','=', active_id)]</field>
+            <field name="view_mode">tree,form</field>
+        </record>
     </data>
 </odoo>

@@ -12,7 +12,7 @@ Allow shoppers of your eCommerce store to create personalized collections of pro
     'depends': ['website_sale'],
     'data': [
         'security/website_sale_wishlist_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/website_sale_wishlist_template.xml',
         'views/snippets.xml',
     ],

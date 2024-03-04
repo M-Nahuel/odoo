@@ -11,7 +11,7 @@ present in a separate module as it contains models used only to perform
 tests independently to functional aspects of other models. """,
     'depends': ['test_performance', 'mail'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/test_mail_security.xml',
         'data/data.xml',
         'data/mail_template_data.xml',

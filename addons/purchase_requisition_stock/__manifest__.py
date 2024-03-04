@@ -13,7 +13,7 @@
         'data/purchase_requisition_stock_demo.xml'
         ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/purchase_requisition_stock_data.xml',
         'views/purchase_requisition_views.xml',
     ],

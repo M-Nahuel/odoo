@@ -17,7 +17,7 @@ E-invoice implementation
     'category': 'Accounting/Localizations/EDI',
     'website': 'http://www.odoo.com/',
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/account_edi_data.xml',
         'data/invoice_it_template.xml',
         'data/invoice_it_simplified_template.xml',

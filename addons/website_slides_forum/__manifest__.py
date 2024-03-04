@@ -12,7 +12,7 @@
         'website_forum'
     ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/website_slides_forum_security.xml',
         'views/forum_views.xml',
         'views/slide_channel_views.xml',

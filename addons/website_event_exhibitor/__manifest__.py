@@ -16,7 +16,7 @@
     ],
     'data': [
         'security/security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/event_sponsor_data.xml',
         'report/website_event_exhibitor_reports.xml',
         'report/website_event_exhibitor_templates.xml',

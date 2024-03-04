@@ -16,7 +16,7 @@
         'data/ir_cron_data.xml',
         'data/ir_model_data.xml',
         'security/ir_rules.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/crm_lead_views.xml',
         'views/crm_reveal_views.xml',
         'views/res_config_settings_views.xml',

@@ -5,7 +5,7 @@
     'category': "Hidden",
     'depends': ['base'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'license': 'LGPL-3',
 }

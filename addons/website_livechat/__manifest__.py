@@ -16,7 +16,7 @@ Allow website visitors to chat with the collaborators. This module also brings a
         'views/res_config_settings_views.xml',
         'views/website_livechat_view.xml',
         'views/website_visitor_views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/website_livechat.xml',
         'data/website_livechat_data.xml',
     ],

@@ -23,7 +23,7 @@ If you want to save your employees' time and avoid them to always have coins in 
     """,
     'data': [
         'security/lunch_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'report/lunch_cashmove_report_views.xml',
         'views/lunch_templates.xml',
         'views/lunch_alert_views.xml',

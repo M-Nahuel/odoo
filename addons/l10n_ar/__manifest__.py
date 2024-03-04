@@ -73,7 +73,7 @@ Master Data:
         'l10n_latam_base',
     ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/l10n_latam_identification_type_data.xml',
         'data/l10n_ar_afip_responsibility_type_data.xml',
         'data/account_chart_template_data.xml',

@@ -11,7 +11,7 @@ This module adds a Twitter scroller building block to the website builder, so th
     """,
     'depends': ['website'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/website_twitter_data.xml',
         'views/res_config_settings_views.xml',
         'views/website_twitter_snippet_templates.xml'

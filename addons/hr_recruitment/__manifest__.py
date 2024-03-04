@@ -20,7 +20,7 @@
     ],
     'data': [
         'security/hr_recruitment_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/digest_data.xml',
         'data/mail_data.xml',
         'data/mail_template_data.xml',

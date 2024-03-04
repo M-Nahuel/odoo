@@ -16,6 +16,7 @@ class Offer(models.Model):
     property_id = fields.Many2one('estate', required=True)
     validity = fields.Integer(default=7, string='Validez')
     date_deadline = fields.Date(compute='_compute_deadline', inverse='_inverse_deadline', string='Expira')
+    property_type_id = fields.Many2one('estate_type', related='property_id.property_type_id', string='Tipo de propiedad', store=True)
 
     @api.depends('create_date', 'validity')
     def _compute_deadline(self):
@@ -50,3 +51,15 @@ class Offer(models.Model):
                 'status': 'refused',
             }
         )
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        for vals in vals_list:
+            property_id = vals.get('property_id')
+            price = vals.get('price')
+            existing_offers = self.search([('property_id', '=', property_id)])
+            if existing_offers and any(price < offer.price for offer in existing_offers):
+                raise UserError("No se puede crear una oferta con un monto menor que una oferta existente")
+            property_record = self.env['estate'].browse(property_id)
+            property_record.state = 'oferta_recibida'
+        return super(Offer, self).create(vals_list)

@@ -8,7 +8,7 @@
     'installable': True,
     'auto_install': False,
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/google_drive_data.xml',
         'views/google_drive_views.xml',
         'views/res_config_settings_views.xml',

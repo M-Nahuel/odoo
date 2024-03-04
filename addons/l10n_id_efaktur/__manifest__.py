@@ -31,7 +31,7 @@
     'category': 'Accounting/Localizations/EDI',
     'depends': ['l10n_id'],
     'data': [
-            'security/ir.model.access.csv',
+            'security/ir.model.access1.csv',
             'views/account_move_views.xml',
             'views/efaktur_views.xml',
             'views/res_config_settings_views.xml',

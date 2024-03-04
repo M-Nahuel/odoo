@@ -7,6 +7,6 @@
     'version': '0.1',
 
     'depends': ['base'],
-    'data': ['ir.model.access.csv'],
+    'data': ['ir.model.access1.csv'],
     'license': 'LGPL-3',
 }

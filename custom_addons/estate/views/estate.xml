@@ -13,7 +13,7 @@
                     <field name="expected_price"/>
                     <field name="selling_price"/>
                     <field name='date_availability'/>
-                    <field name="type_id"/>
+                    <field name="property_type_id"/>
                     <field name="tag_ids" widget="many2many_tags"/>
                 </tree>
             </field>
@@ -47,7 +47,7 @@
                                 <group>
                                     <field name="postcode"/>
                                     <field name="date_availability"/>
-                                    <field name="type_id"/>
+                                    <field name="property_type_id"/>
                                 </group>
 
                                 <group>
@@ -112,7 +112,7 @@
                 <search string="estate search">
                     <field name="name"/>
                     <field name="postcode"/>
-                    <field name="type_id"/>
+                    <field name="property_type_id"/>
                     <field name="expected_price"/>
                     <field name="bedrooms"/>
                     <field name="living_area"/>

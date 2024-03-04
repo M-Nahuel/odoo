@@ -14,7 +14,7 @@ for customization purpose.
     'installable': True,
     'auto_install': False,
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/base_import_module_view.xml'
     ],
     'license': 'LGPL-3',

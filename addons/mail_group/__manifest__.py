@@ -18,7 +18,7 @@
         'data/mail_templates.xml',
         'data/mail_template_data.xml',
         'data/res_groups.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/mail_group_security.xml',
         'wizard/mail_group_message_reject_views.xml',
         'views/mail_group_member_views.xml',

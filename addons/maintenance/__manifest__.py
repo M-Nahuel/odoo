@@ -12,7 +12,7 @@
     'website': 'https://www.odoo.com/app/maintenance',
     'data': [
         'security/maintenance.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/maintenance_data.xml',
         'data/mail_data.xml',
         'views/maintenance_views.xml',

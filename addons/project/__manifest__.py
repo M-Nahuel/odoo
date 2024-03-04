@@ -22,7 +22,7 @@
     'description': "",
     'data': [
         'security/project_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/ir.model.access.xml',
         'data/digest_data.xml',
         'report/project_report_views.xml',

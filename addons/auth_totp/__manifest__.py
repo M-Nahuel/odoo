@@ -19,7 +19,7 @@ can setup API keys to replace their main password.
     'auto_install': True,
     'data': [
         'security/security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/ir_action_data.xml',
         'views/res_users_views.xml',
         'views/templates.xml',

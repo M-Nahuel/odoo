@@ -19,7 +19,7 @@ actions(Check in/Check out) performed by them.
     'depends': ['hr', 'barcodes'],
     'data': [
         'security/hr_attendance_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/hr_attendance_view.xml',
         'views/hr_attendance_overtime_view.xml',
         'report/hr_attendance_report_views.xml',

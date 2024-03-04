@@ -16,7 +16,7 @@ Odoo database.
         'python': ['cryptography']
     },
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'installable': True,
     'application': False,

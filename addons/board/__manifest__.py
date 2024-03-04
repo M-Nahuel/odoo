@@ -15,7 +15,7 @@ Allows users to create custom dashboard.
     """,
     'depends': ['base', 'web'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/board_views.xml',
         ],
     'application': True,

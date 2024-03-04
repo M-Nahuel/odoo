@@ -14,7 +14,7 @@ governements, etc.)
     'category': 'Accounting/Accounting',
     'depends' : ['account'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/account_edi_document_views.xml',
         'views/account_move_views.xml',
         'views/account_payment_views.xml',

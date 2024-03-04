@@ -7,7 +7,7 @@
     'description': """Tests of field conversions""",
     'maintainer': 'OpenERP SA',
     'depends': ['base'],
-    'data': ['ir.model.access.csv'],
+    'data': ['ir.model.access1.csv'],
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',

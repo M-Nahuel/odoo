@@ -14,7 +14,7 @@ Forms has to be customized inside the *Website Builder* in order to generate lea
 This module includes contact phone and mobile numbers validation.""",
     'depends': ['website', 'crm'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/ir_actions_data.xml',
         'data/ir_model_data.xml',
         'views/crm_lead_views.xml',

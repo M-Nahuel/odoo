@@ -21,7 +21,7 @@
     'category': 'Accounting/Localizations/EDI',
     'license': 'LGPL-3',
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/account_edi_format.xml',
         'data/ubl_21_zatca.xml',
         'data/res_country_data.xml',

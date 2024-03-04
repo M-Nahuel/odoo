@@ -19,7 +19,7 @@
     ],
     'data': [
         'security/stock_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
 
         'data/digest_data.xml',
         'data/mail_templates.xml',

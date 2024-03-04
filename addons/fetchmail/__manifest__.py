@@ -36,7 +36,7 @@ For more specific needs, you may also assign custom-defined actions
     """,
     'data': [
         'data/fetchmail_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/fetchmail_views.xml',
         'views/mail_mail_views.xml',
         'views/res_config_settings_views.xml',

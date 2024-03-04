@@ -14,7 +14,7 @@ to support In-App purchases inside Odoo. """,
         'base_setup'
     ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/ir_rule.xml',
         'views/iap_views.xml',
         'views/res_config_settings.xml',

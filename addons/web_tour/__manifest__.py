@@ -12,7 +12,7 @@ Odoo Web tours.
     'version': '0.1',
     'depends': ['web'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/ir.rule.csv',
         'views/tour_views.xml'
     ],

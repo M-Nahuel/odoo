@@ -8,7 +8,7 @@
     'website': 'http://www.camptocamp.com',
     'depends': ['base'],
     'data': [
-        'ir.model.access.csv',
+        'ir.model.access1.csv',
         'demo_data.xml',
     ],
     'installable': True,

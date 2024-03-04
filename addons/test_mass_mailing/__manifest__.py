@@ -11,7 +11,7 @@ are present in a separate module to use specific test models defined in
 test_mail. """,
     'depends': ['test_mail', 'mass_mailing'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'demo': [
     ],

@@ -7,7 +7,7 @@
     'category': 'Hidden/Tools',
     'data': [
         'views/ldap_installer_views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/res_config_settings_views.xml',
     ],
     'external_dependencies': {

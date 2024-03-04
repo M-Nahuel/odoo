@@ -16,7 +16,7 @@
         'account_debit_note',
     ],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/account_tax_view.xml',
         'data/l10n_pe_chart_data.xml',
         'data/account.group.template.csv',

@@ -20,7 +20,7 @@ models which only purpose is to run tests.""",
     'data': [
         'views/templates.xml',
         'data/test_website_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'installable': True,
     'application': False,

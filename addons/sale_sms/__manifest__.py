@@ -9,7 +9,7 @@
     'version': '1.0',
     'depends': ['sale', 'sms'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/security.xml',
     ],
     'application': False,

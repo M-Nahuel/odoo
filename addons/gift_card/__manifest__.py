@@ -11,7 +11,7 @@
     'data': [
         'data/gift_card_data.xml',
         'views/views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'license': 'LGPL-3',
 }

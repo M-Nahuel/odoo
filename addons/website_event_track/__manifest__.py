@@ -9,7 +9,7 @@
     'description': "",
     'depends': ['website_event'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/event_track_security.xml',
         'data/event_data.xml',
         'data/mail_data.xml',

@@ -71,7 +71,7 @@ Master Data:
         "views/l10n_ec_sri_payment.xml",
         "views/account_journal_view.xml",
         # Security
-        "security/ir.model.access.csv",
+        "security/ir.model.access1.csv",
     ],
     "demo": [
         "demo/demo_company.xml",

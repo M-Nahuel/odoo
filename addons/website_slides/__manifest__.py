@@ -27,7 +27,7 @@ Featuring
     ],
     'data': [
         'security/website_slides_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/res_config_settings_views.xml',
         'views/res_partner_views.xml',
         'views/rating_rating_views.xml',

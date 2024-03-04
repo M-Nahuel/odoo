@@ -37,7 +37,7 @@
         'data/mail_activity_data.xml',
         'data/ir_cron_data.xml',
         'security/mail_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/discuss_public_templates.xml',
         'views/mail_alias_views.xml',
         'views/mail_guest_views.xml',

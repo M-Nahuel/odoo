@@ -10,7 +10,7 @@
     'installable': True,
     'auto_install': False,
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/test_new_api_security.xml',
         'views/test_new_api_views.xml',
         'data/test_new_api_data.xml',

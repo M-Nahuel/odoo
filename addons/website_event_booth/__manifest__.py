@@ -11,7 +11,7 @@ Display your booths on your website for the users to register.
     """,
     'depends': ['website_event', 'event_booth'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/event_booth_security.xml',
         'views/event_type_views.xml',
         'views/event_event_views.xml',

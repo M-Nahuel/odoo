@@ -7,7 +7,7 @@
     'data': [
         'data/barcodes_data.xml',
         'views/barcodes_view.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         ],
     'installable': True,
     'auto_install': False,

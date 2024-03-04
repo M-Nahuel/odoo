@@ -14,7 +14,7 @@
         'data/mail_template_data.xml',
         'views/sale_order_view.xml',
         'views/templates.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'license': 'LGPL-3',
 }

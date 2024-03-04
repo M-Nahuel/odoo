@@ -32,7 +32,7 @@
         'views/website_event_menu_views.xml',
         'views/website_visitor_views.xml',
         'views/event_menus.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/event_security.xml',
     ],
     'demo': [

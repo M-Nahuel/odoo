@@ -24,7 +24,7 @@ Dashboard / Reports for Warehouse Management includes:
     'sequence': 16,
     'data': [
         'security/stock_account_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/stock_account_data.xml',
         'views/stock_account_views.xml',
         'views/res_config_settings_views.xml',

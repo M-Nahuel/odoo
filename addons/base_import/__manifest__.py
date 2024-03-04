@@ -27,7 +27,7 @@ Re-implement Odoo's file import system:
     'installable': True,
     'auto_install': True,
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'assets': {
         'web.assets_qweb': [

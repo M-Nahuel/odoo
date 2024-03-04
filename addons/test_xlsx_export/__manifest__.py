@@ -6,7 +6,7 @@
     'category': 'Hidden/Tests',
     'description': """A module to test xlsx export.""",
     'depends': ['web', 'test_mail'],
-    'data': ['ir.model.access.csv'],
+    'data': ['ir.model.access1.csv'],
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',

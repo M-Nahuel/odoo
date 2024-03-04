@@ -9,7 +9,7 @@ supposed to do
     """,
     'depends': ['base'],
     'data': [
-        'ir.model.access.csv',
+        'ir.model.access1.csv',
         'menu.xml',
     ],
     'license': 'LGPL-3',

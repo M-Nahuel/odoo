@@ -6,7 +6,7 @@
     'description': """A module to verify the inheritance.""",
     'depends': ['base', 'test_new_api'],
     'data': [
-        'ir.model.access.csv',
+        'ir.model.access1.csv',
         'demo_data.xml',
     ],
     'installable': True,

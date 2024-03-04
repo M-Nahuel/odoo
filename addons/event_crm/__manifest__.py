@@ -10,7 +10,7 @@
     'depends': ['event', 'crm'],
     'data': [
         'security/event_crm_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/crm_lead_views.xml',
         'views/event_registration_views.xml',
         'views/event_lead_rule_views.xml',

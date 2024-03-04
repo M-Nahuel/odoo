@@ -6,7 +6,7 @@
     'description': """A module to test populate.""",
     'depends': ['base'],
     'data': [
-        'ir.model.access.csv',
+        'ir.model.access1.csv',
     ],
     'installable': True,
     'auto_install': False,

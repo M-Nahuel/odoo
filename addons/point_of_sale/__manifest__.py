@@ -11,7 +11,7 @@
     'depends': ['stock_account', 'barcodes', 'web_editor', 'digest'],
     'data': [
         'security/point_of_sale_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/default_barcode_patterns.xml',
         'data/digest_data.xml',
         'wizard/pos_box.xml',

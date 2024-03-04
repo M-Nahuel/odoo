@@ -23,7 +23,7 @@ The following topics are covered by this module:
 """,
     'depends': ['stock', 'sale_management', 'account'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'security/repair_security.xml',
         'wizard/repair_make_invoice_views.xml',
         'wizard/stock_warn_insufficient_qty_views.xml',

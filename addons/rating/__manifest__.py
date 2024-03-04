@@ -13,7 +13,7 @@ This module allows a customer to give rating.
         'views/rating_rating_views.xml',
         'views/rating_template.xml',
         'views/mail_message_views.xml',
-        'security/ir.model.access.csv'
+        'security/ir.model.access1.csv'
     ],
     'installable': True,
     'auto_install': False,

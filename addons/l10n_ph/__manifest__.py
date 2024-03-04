@@ -28,7 +28,7 @@
         "views/account_payment_views.xml",
         "views/account_tax_views.xml",
         "views/res_partner_views.xml",
-        "security/ir.model.access.csv",
+        "security/ir.model.access1.csv",
     ],
     "license": "LGPL-3",
     "icon": "/base/static/img/country_flags/ph.png",

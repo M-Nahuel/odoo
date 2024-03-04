@@ -17,7 +17,7 @@ trigger an automatic reminder email.
     """,
     'depends': ['base', 'resource', 'mail'],
     'data': [
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/base_automation_data.xml',
         'views/base_automation_view.xml',
     ],

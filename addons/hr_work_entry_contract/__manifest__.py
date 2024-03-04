@@ -14,7 +14,7 @@
     ],
     'data': [
         'security/hr_work_entry_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'data/hr_work_entry_data.xml',
         'views/hr_work_entry_views.xml',
         'wizard/hr_work_entry_regeneration_wizard_views.xml',

@@ -14,7 +14,7 @@
         'views/gift_card_views.xml',
         'views/res_config_settings_views.xml',
         'views/pos_config_views.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
     ],
     'assets': {
         'point_of_sale.assets': [

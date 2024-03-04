@@ -10,7 +10,7 @@
     'data': [
         'data/mail_template_data.xml',
         'security/sale_coupon_security.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'wizard/sale_coupon_apply_code_views.xml',
         'views/sale_order_views.xml',
         'views/coupon_views.xml',

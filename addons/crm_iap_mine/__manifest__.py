@@ -16,7 +16,7 @@
         'data/crm.iap.lead.seniority.csv',
         'data/mail_template_data.xml',
         'data/ir_sequence_data.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.access1.csv',
         'views/crm_lead_views.xml',
         'views/crm_iap_lead_mining_request_views.xml',
         'views/res_config_settings_views.xml',
